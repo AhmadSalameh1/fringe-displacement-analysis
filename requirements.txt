@@ -1,0 +1,11 @@
+numpy
+scipy
+matplotlib
+pandas
+opencv-python
+jupyter
+ipython
+numba
+numexpr
+zwoasi
+labjack-ljm

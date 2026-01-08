@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated experiment data (do not commit)
+data/raw/
+data/crop/
+data/disp/
+Capture/
+crop/
+disp/
+*.npz
+*.csv
+*.png
+
+# VS Code / OS
+.vscode/
+.DS_Store
+
