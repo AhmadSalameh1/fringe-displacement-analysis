@@ -19,9 +19,7 @@ Initial setup
 -------------
 1) Clone and enter the repo
 	```bash
-	git clone <this-repo-url>
-	cd fringe-displacement-analysis
-	```
+   git clone https://github.com/AhmadSalameh1/fringe-displacement-analysis.git
 
 2) Create a virtual environment (optional but recommended)
 	```bash
@@ -130,7 +128,7 @@ Repo layout
 Quick start (commands only)
 ---------------------------
 ```bash
-git clone <this-repo-url>
+git clone https://github.com/AhmadSalameh1/fringe-displacement-analysis.git
 cd fringe-displacement-analysis
 python3 -m venv .venv && source .venv/bin/activate
 pip install --upgrade pip
