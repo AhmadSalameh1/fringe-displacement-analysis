@@ -25,7 +25,8 @@ import sys
 from math import *
 from labjack import ljm
 
-import ljm_stream_util
+# Use package-relative import so it works when src is a package
+from . import ljm_stream_util
 import matplotlib.pyplot as plt
 
 

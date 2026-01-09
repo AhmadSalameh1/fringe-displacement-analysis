@@ -24,7 +24,7 @@
 
   "mounts": [
     "source=/dev/bus/usb,target=/dev/bus/usb,type=bind",
-    "source=${localWorkspaceFolder}/third_party/asi-sdk/libASICamera2.so,target=/opt/asi-sdk/libASICamera2.so,type=bind,readonly"
+    "source=${localWorkspaceFolder}/third-party/asi-sdk/libASICamera2.so,target=/opt/asi-sdk/libASICamera2.so,type=bind,readonly"
   ],
 
   "containerEnv": {
