@@ -102,7 +102,33 @@ What to expect
   - Cropped frames in `data/crop`
   - Displacement CSV: `data/disp/fringe_displacement.csv`
   - Displacement plot: `data/disp/fringe_displacement.png`
+Licenses and Attribution
+------------------------
 
+This project uses third-party libraries and SDKs. Please comply with their respective licenses:
+
+**Hardware SDKs (Proprietary/Commercial):**
+- **ZWO ASI SDK** (`third-party/asi-sdk/libASICamera2.so.1.37`): Proprietary library © Zixuan Optics. Bundled for convenience. See https://www.zwoastro.com for terms.
+- **LabJack LJM** (`libLabJackM.so`): Proprietary library © LabJack Corporation. Downloaded from https://support.labjack.com/docs/ljm-software-installer-linux-x64. See LabJack's EULA for terms.
+
+**Python & Scientific Libraries (Open Source):**
+- **Python 3**: Python Software Foundation License (PSL) — https://www.python.org/psf/
+- **NumPy**: BSD 3-Clause License — https://numpy.org/doc/stable/license.html
+- **SciPy**: BSD 3-Clause License — https://scipy.org/
+- **Matplotlib**: Matplotlib License (PSL-compatible) — https://matplotlib.org/stable/users/project/license.html
+- **OpenCV** (`cv2`): Apache 2.0 License — https://github.com/opencv/opencv/blob/master/LICENSE
+- **scikit-image**: BSD 3-Clause License — https://scikit-image.org/
+
+**Python Packages:**
+- **jupyter, jupyterlab**: BSD 3-Clause License — https://github.com/jupyter/
+- **zwoasi**: Python bindings for ASI SDK; check https://github.com/gwoptics/python-zwoasi for license.
+- **labjack-ljm**: Python bindings for LabJack LJM; see https://github.com/labjack/labjack-ljm-python.
+- All other packages in `requirements.txt`: see their respective GitHub/PyPI repositories.
+
+**User Responsibility:**
+- Ensure compliance with the ZWO ASI SDK and LabJack LJM proprietary terms when using this project.
+- Redistribute with appropriate license notices if distributing modified versions.
+- This project itself is licensed according to any LICENSE file in the repository root.
 Troubleshooting
 ---------------
 - `ModuleNotFoundError: src`: ensure `source setup_env.sh` or add repo root to `PYTHONPATH`.
